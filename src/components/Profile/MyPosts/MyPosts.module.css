@@ -1,0 +1,6 @@
+.input_area {
+    min-width: 150px;
+    min-height: 50px;
+    max-width: 300px;
+    max-height: 200px;
+}
