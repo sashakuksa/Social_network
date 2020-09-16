@@ -4,18 +4,19 @@ import MyPosts from "./MyPosts/MyPosts";
 
 
 const Profile = () => {
-    return <div className={s.content}>
+    return (
         <div>
-            <img
-                src="https://image.shutterstock.com/image-vector/vector-abstract-background-texture-design-260nw-646522975.jpg"
-                alt=""/>
-        </div>
-        <div>
-            ava + description
-        </div>
-       <MyPosts />
+            <div>
+                <img
+                    src="https://image.shutterstock.com/image-vector/vector-abstract-background-texture-design-260nw-646522975.jpg"
+                    alt=""/>
+            </div>
+            <div>
+                ava + description
+            </div>
+            <MyPosts/>
 
-    </div>
+        </div>)
 }
 export default Profile;
 
