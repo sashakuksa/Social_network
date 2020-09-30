@@ -13,8 +13,11 @@ const App = () => {
                 <Header/>
                 <Navbar/>
                 <div class='app-wrapper-content'>
-                    <Route path='/dialogs' component={Dialogs}/>
-                    <Route path='/profile' component={Profile}/>
+                    <Route path='/dialogs' component={Dialogs}/> {/*доустановить пакет npm i react-router-dom -save*/}
+                    <Route path='/profile' component={Profile}/> {/*-save сохраняет запись о пакете в package.json, утсанавливается потом с пом. npm install*/}
+                    <Route path='/news' component={Dialogs}/>
+                    <Route path='/music' component={Dialogs}/>
+                    <Route path='/settings' component={Dialogs}/>
                 </div>
             </div>
         </BrowserRouter>)
